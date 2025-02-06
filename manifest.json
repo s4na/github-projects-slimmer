@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Projects Slimmer",
+  "version": "1.0",
+  "description": "GitHub Projectsのカラムの横幅を小さくするChrome拡張",
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "permissions": []
+}
